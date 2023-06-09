@@ -31,7 +31,5 @@
 .features{
     margin-top: 110px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    height: 660px;
-    grid-template-rows: repeat(2,1fr);
+    grid-template: repeat(2, 1fr) / repeat(2, 330px);
 }
