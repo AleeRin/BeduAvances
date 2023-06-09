@@ -1,0 +1,36 @@
+.fixed-header{
+    position:fixed;
+    height:100px;
+    background-color: black;
+    width:100%;
+    top:0;
+    left:0;
+    right:0;
+}
+.contenido{
+    height:8000px;
+  
+
+}
+.car{
+    height: 200px;
+    width:200px;
+}
+.car1{
+    background-color: red;
+}
+.car2{
+    background-color: blue;
+}
+.car3{
+    background-color: violet;
+}
+.car4{
+    background-color: purple;
+}
+.features{
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
